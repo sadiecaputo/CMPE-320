@@ -1,0 +1,150 @@
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\69AA70B61FA8A1C380211CA0CD38B66B\CROW-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/tmp/crow-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/src/crow-populate-stamp/Debug/crow-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\69AA70B61FA8A1C380211CA0CD38B66B\CROW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/tmp/crow-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/src/crow-populate-stamp/Debug/crow-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\69AA70B61FA8A1C380211CA0CD38B66B\CROW-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/tmp/crow-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\69AA70B61FA8A1C380211CA0CD38B66B\CROW-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/src/crow-populate-stamp/Debug/crow-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\69AA70B61FA8A1C380211CA0CD38B66B\CROW-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/src/crow-populate-stamp/Debug/crow-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\69AA70B61FA8A1C380211CA0CD38B66B\CROW-POPULATE-BUILD.RULE
+setlocal
+cd "C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/src/crow-populate-stamp/Debug/crow-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\69AA70B61FA8A1C380211CA0CD38B66B\CROW-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/src/crow-populate-stamp/Debug/crow-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\69AA70B61FA8A1C380211CA0CD38B66B\CROW-POPULATE-TEST.RULE
+setlocal
+cd "C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/src/crow-populate-stamp/Debug/crow-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\6EC7CEC3E7F16872CF256E53004DB910\CROW-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/Debug/crow-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/crow-populate-prefix/src/crow-populate-stamp/Debug/crow-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKEFILES\3E89A8E9465D9DD937585CE29D7A60F6\CROW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\_DEPS\CROW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild" "-BC:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild" --check-stamp-file "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

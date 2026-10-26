@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\supabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF20A473-BE9B-35B9-9BBF-A7F5B5D0BB1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

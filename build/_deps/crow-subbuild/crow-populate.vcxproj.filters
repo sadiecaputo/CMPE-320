@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\69aa70b61fa8a1c380211ca0cd38b66b\crow-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\69aa70b61fa8a1c380211ca0cd38b66b\crow-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\69aa70b61fa8a1c380211ca0cd38b66b\crow-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\69aa70b61fa8a1c380211ca0cd38b66b\crow-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\69aa70b61fa8a1c380211ca0cd38b66b\crow-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\69aa70b61fa8a1c380211ca0cd38b66b\crow-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\69aa70b61fa8a1c380211ca0cd38b66b\crow-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\69aa70b61fa8a1c380211ca0cd38b66b\crow-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\6ec7cec3e7f16872cf256e53004db910\crow-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\3e89a8e9465d9dd937585ce29d7a60f6\crow-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\CMPE 320\Project work\SageRepo\CMPE-320\build\_deps\crow-subbuild\CMakeFiles\crow-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4E37AD08-3BC2-3AC3-BE8E-11EAF1406446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

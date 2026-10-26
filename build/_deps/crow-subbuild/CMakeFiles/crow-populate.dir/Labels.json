@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/crow-populate"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/3e89a8e9465d9dd937585ce29d7a60f6/crow-populate.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/6ec7cec3e7f16872cf256e53004db910/crow-populate-complete.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/69aa70b61fa8a1c380211ca0cd38b66b/crow-populate-build.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/69aa70b61fa8a1c380211ca0cd38b66b/crow-populate-configure.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/69aa70b61fa8a1c380211ca0cd38b66b/crow-populate-download.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/69aa70b61fa8a1c380211ca0cd38b66b/crow-populate-install.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/69aa70b61fa8a1c380211ca0cd38b66b/crow-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/69aa70b61fa8a1c380211ca0cd38b66b/crow-populate-patch.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/69aa70b61fa8a1c380211ca0cd38b66b/crow-populate-test.rule"
+		},
+		{
+			"file" : "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-subbuild/CMakeFiles/69aa70b61fa8a1c380211ca0cd38b66b/crow-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"crow-populate"
+		],
+		"name" : "crow-populate"
+	}
+}

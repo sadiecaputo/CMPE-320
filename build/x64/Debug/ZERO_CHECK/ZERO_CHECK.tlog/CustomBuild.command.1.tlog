@@ -1,0 +1,10 @@
+^C:\CMPE 320\PROJECT WORK\SAGEREPO\CMPE-320\BUILD\CMAKEFILES\25D5F91329EA545957D3E11DEF7F9A14\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/CMPE 320/Project work/SageRepo/CMPE-320" "-BC:/CMPE 320/Project work/SageRepo/CMPE-320/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/CMPE 320/Project work/SageRepo/CMPE-320/build/cpp_backend.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

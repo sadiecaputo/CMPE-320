@@ -14,6 +14,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Crow)
 
-add_executable(server main.cpp)
+add_executable(server main.cpp supabase.cpp classes.cpp resources.cpp)
 find_package(CURL CONFIG REQUIRED)
 target_link_libraries(server PRIVATE Crow::Crow CURL::libcurl)

@@ -1,0 +1,9 @@
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/CMakeFiles/server.dir
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/CMakeFiles/PACKAGE.dir
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/CMakeFiles/INSTALL.dir
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/CMakeFiles/ALL_BUILD.dir
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/CMakeFiles/ZERO_CHECK.dir
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-build/CMakeFiles/uninstall.dir
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-build/CMakeFiles/PACKAGE.dir
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-build/CMakeFiles/INSTALL.dir
+C:/CMPE 320/Project work/SageRepo/CMPE-320/build/_deps/crow-build/CMakeFiles/ALL_BUILD.dir
